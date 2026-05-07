@@ -18,7 +18,7 @@ def load_model():
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('creditcard.csv')
+    return pd.read_csv('creditcard_sample.csv')
 
 model = load_model()
 df = load_data()
